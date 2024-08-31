@@ -40,33 +40,28 @@ Contact and Revenue Data: Cost to contact the customer and revenue generated aft
 
 1\. Data Preprocessing:
 
-`   `- Handle missing values in the `Income` feature.
-
-`   `- Convert the `Dt\_Customer` column to a datetime data type.
-
-`   `- Create additional features such as `Total\_Spending`, `Total\_Acc`, `Total\_Purchases`, `Conversion\_Rate`, `Age`, `Age\_Group`, and `Has\_Partner`.
+- Handle missing values in the `Income` feature.
+- Convert the `Dt\_Customer` column to a datetime data type.
+- Create additional features such as `Total\_Spending`, `Total\_Acc`, `Total\_Purchases`, `Conversion\_Rate`, `Age`, `Age\_Group`, and `Has\_Partner`.
 
 2\. Exploratory Data Analysis (EDA):
 
-`   `- Analyze correlations between features and the conversion rate.
-
-`   `- Identify patterns and relationships in spending, purchases, and customer demographics.
+- Analyze correlations between features and the conversion rate.
+- Identify patterns and relationships in spending, purchases, and customer demographics.
 
 3\. Feature Engineering:
 
-`   `- Develop new features to aid in segmentation and clustering, including total spending and purchase behavior metrics.
+- Develop new features to aid in segmentation and clustering, including total spending and purchase behavior metrics.
 
 4\. Clustering:
 
-`   `- Apply K-Means Clustering to segment customers based on their spending patterns and behavior.
-
-`   `- Determine the optimal number of clusters using methods such as the Elbow Method.
+- Apply K-Means Clustering to segment customers based on their spending patterns and behavior.
+- Determine the optimal number of clusters using methods such as the Elbow Method.
 
 5\. Evaluation:
 
-`   `- Assess the effectiveness of the clustering model by analyzing cluster characteristics and their impact on conversion rates and marketing ROI.
-
-`   `- Provide actionable recommendations based on clustering results.
+- Assess the effectiveness of the clustering model by analyzing cluster characteristics and their impact on conversion rates and marketing ROI.
+- Provide actionable recommendations based on clustering results.
 
 **Results**
 
